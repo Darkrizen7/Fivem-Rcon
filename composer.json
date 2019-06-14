@@ -1,6 +1,6 @@
 {
   "name": "darkrizen/fivem-rcon-class",
-  "homepage": "https://github.com/Nizarii/arma-rcon-class-php/",
+  "homepage": "",
   "type": "library",
   "description": "A simple rcon class for connecting to fivem servers",
   "require": {
