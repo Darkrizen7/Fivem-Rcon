@@ -19,7 +19,7 @@ class Rcon{
 		if(!$this->socket){
 			return false;
 		}
-		return true
+		return true;
 	}
 	public function command(){
 		$this->send("rcon ".$this->serverPassword." $str");
