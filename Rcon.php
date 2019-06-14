@@ -21,7 +21,7 @@ class Rcon{
 		}
 		return true;
 	}
-	public function command(){
+	public function command($str){
 		$this->send("rcon ".$this->serverPassword." $str");
 	}
     private function send($str) {
